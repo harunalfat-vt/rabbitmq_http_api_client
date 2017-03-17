@@ -8,5 +8,9 @@ group :development, :test do
   gem "rantly"
 end
 
+gem "faraday_middleware",
+    git: "https://github.com/goromlagche/faraday_middleware.git"
+
+
 # Specify your gem's dependencies in superintendent.gemspec
 gemspec
